@@ -21,6 +21,6 @@ var config = {
 };
 var generator = new hertzTimer.generator(config);
 
-generator.on('complete',function(){ console.log('Cycles complete\n' + hertzCounter ); });
+generator.on('complete',function(){ console.log('Cycles complete\n' ); });
 generator.on('started', function(){ console.log('New cycles started'); });
 generator.on('stopped', function(){ console.log('Cycles stopped');     });
